@@ -13,11 +13,11 @@
 
 
 :root {
-	--bg-color: #070818;
-	--text-color: #fff;
-	--main-color: red;
-	--second-color: gray;
-	--other-color: #12141c;
+	--bg-color: #ffffff;
+	--text-color: #042B44;
+	--main-color: #FFA501;
+	--second-color: #042B44;
+	--other-color: #ffffff;
 	--heading-font: 5.2rem;
 	--second-heading: 3.5rem;
 	--paragraph-font: 1.1rem;
@@ -86,7 +86,7 @@ section {
 	height: 100vh;
 	width: 100%;
 	position: relative;
-	background: url(./img/bg.jpg);
+	background: url(./img/my.png);
 	background-position: center;
 	background-size: cover;
 	display: flex;
@@ -139,7 +139,7 @@ section {
 header.sticky { 
 	padding: 20px 3%;
 	background: var(--bg-color);
-	border-bottom: 1px solid #0e1630;
+	border-bottom: 1px solid #cea905;
 }
 
 .about {
@@ -201,7 +201,7 @@ header.sticky {
 
 .box {
 	padding: 30px;
-	background: #12141c;
+	background: #e9e9e9;
 	border-top: 5px solid transparent;
 	border-radius: 0.5rem;
 	transform: all 0.5s ease;
