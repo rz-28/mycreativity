@@ -431,6 +431,10 @@ form textarea:focus {
 	section {
 		padding: 130px 3% 60px;
 	}
+	img {
+  max-width: 100%;
+  height: auto;
+	}
 }
 
 @media (max-width: 768px) {
@@ -459,6 +463,11 @@ form textarea:focus {
 	.contact {
 		grid-template-columns: 1fr;
 	}
+}
+@media (max-width: 768px) {
+  img {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
