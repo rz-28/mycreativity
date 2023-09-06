@@ -420,7 +420,7 @@ form textarea:focus {
 /* Responsive */
 
 
-@media (max-width: 1325px) {
+@media (min-width: 769px) {
 	header {
 		padding: 16px 3%;
 	}
@@ -433,7 +433,7 @@ form textarea:focus {
 	}
 }
 
-@media (max-width: 970px) {
+@media (max-width: 768px) {
 	:root {
 		--heading-font: 4.2rem;
 		--second-heading: 2.7rem;
@@ -461,7 +461,7 @@ form textarea:focus {
 	}
 }
 
-@media (max-width: 830px) {
+@media (max-width: 768px) {
 	:root {
 		--heading-font: 3.7rem;
 		--second-heading: 2.4rem;
