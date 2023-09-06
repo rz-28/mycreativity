@@ -83,7 +83,7 @@ section {
 }
 
 .home {
-	height: 100vh;
+	height: auto;
 	width: 100%;
 	position: relative;
 	background: url(./img/my.png);
